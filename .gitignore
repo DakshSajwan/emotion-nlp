@@ -1,0 +1,29 @@
+# Virtual environments
+.venv/
+venv/
+
+# Python bytecode & caches
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+# OS generated
+.DS_Store
+
+# Smoke testing and release artifacts
+*_smoke*
+submission/
+release_assets/
+*.zip
+
+# Models (ignore all models except baseline.joblib and .gitkeep)
+models/*
+!models/.gitkeep
+!models/baseline.joblib
+
+# Datasets (ignore all data except probe/stress sets and .gitkeep)
+data/*
+!data/.gitkeep
+!data/probe_set.csv
+!data/stress_set.csv

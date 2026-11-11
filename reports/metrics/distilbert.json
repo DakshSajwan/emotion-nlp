@@ -1,0 +1,13 @@
+{
+  "accuracy": 0.9295,
+  "macro_f1": 0.8832,
+  "weighted_f1": 0.9284,
+  "training_time_seconds": 460.5885,
+  "inference_time_per_1000_samples_ms": 2725.1521,
+  "inference_time_per_1000_samples_seconds": 2.725152,
+  "total_test_inference_time_seconds": 5.4503,
+  "model_size_mb": 256.12,
+  "epochs": 3,
+  "batch_size": 32,
+  "subset": null
+}

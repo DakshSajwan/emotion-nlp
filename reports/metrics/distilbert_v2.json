@@ -1,0 +1,17 @@
+{
+  "accuracy": 0.9295,
+  "macro_f1": 0.8929,
+  "weighted_f1": 0.9304,
+  "training_time_seconds": 912.6351,
+  "inference_time_per_1000_samples_ms": 2789.8069,
+  "inference_time_per_1000_samples_seconds": 2.789807,
+  "total_test_inference_time_seconds": 5.5796,
+  "model_size_mb": 256.12,
+  "epochs": 3,
+  "batch_size": 32,
+  "subset": null,
+  "train_file": "data/train_v2.csv",
+  "run_name": "distilbert_v2",
+  "label_smoothing": 0.1,
+  "class_weights": false
+}

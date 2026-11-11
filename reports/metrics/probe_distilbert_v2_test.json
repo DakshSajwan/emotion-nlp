@@ -1,0 +1,24 @@
+{
+  "model_type": "distilbert_v2",
+  "split": "test",
+  "emotional_samples": 60,
+  "accuracy": 0.8667,
+  "macro_f1": 0.8676,
+  "weighted_f1": 0.8676,
+  "per_class_f1": {
+    "sadness": 0.8,
+    "joy": 0.9474,
+    "love": 0.8421,
+    "anger": 0.8182,
+    "fear": 0.8889,
+    "surprise": 0.9091
+  },
+  "neutral_samples": 12,
+  "falsely_confident_neutral_count": 3,
+  "falsely_confident_neutral_rate": 0.25,
+  "neutral_mean_confidence": 0.6852,
+  "confident_only_accuracy": 0.875,
+  "confident_only_macro_f1": 0.8788,
+  "pct_answered": 80.0,
+  "answered_samples": 48
+}

@@ -1,0 +1,36 @@
+text,true,pred,confidence
+Tears welled up in his eyes as he packed his childhood belongings into dusty cardboard boxes.,sadness,joy,0.2919
+"Visiting our favorite old café alone felt cold, hollow, and painfully heavy today.",sadness,anger,0.5855
+The little girl dropped her favorite ice cream cone on the sidewalk and wept uncontrollably.,sadness,fear,0.3716
+If only we had realized that was the very last conversation we would ever share!,sadness,fear,0.3705
+"The farewell party was polite, but walking out of the building felt deeply depressing.",sadness,anger,0.3475
+His mother’s voice trembled with sorrow as she read the memorial eulogy aloud.,sadness,anger,0.3809
+My heart sank when the veterinarian told us there was nothing more they could do.,sadness,anger,0.2785
+It hurts to realize that some friendships simply fade into quiet oblivion without any explanation.,sadness,anger,0.4854
+"What a breathtaking performance, the audience couldn't stop cheering and applauding!",joy,fear,0.4952
+We spent the entire afternoon laughing until our ribs ached at his ridiculous childhood stories.,joy,sadness,0.3614
+"Hurray, the flight was on time and we made it to the wedding after all!",joy,sadness,0.3766
+Everyone in the village gathered in the town square to dance and celebrate the harvest.,joy,sadness,0.2915
+She cherished every handwritten letter her husband sent from overseas during the war.,love,joy,0.4089
+"I love you more than words could ever possibly express, my darling!",love,joy,0.5201
+"Growing older can be frightening, but walking this path beside my beloved partner makes it beautiful.",love,joy,0.5405
+The elderly couple walked along the seashore holding hands just like they did forty years ago.,love,joy,0.5384
+Cooking dinner together while talking about our dreams is when I adore him the most.,love,joy,0.4674
+Isn't it wonderful to have friends who love you exactly as you are?,love,joy,0.7331
+They showed absolutely no remorse for the severe damage their reckless negligence caused.,anger,sadness,0.3387
+"I smiled politely, but beneath the surface I was burning with pure indignation and resentment.",anger,sadness,0.237
+The mechanic overcharged her by hundreds of dollars for repairs that were completely unnecessary and fictitious.,anger,sadness,0.3529
+That corrupt politician should be behind bars for stealing taxpayer money to fund his luxury mansion!,anger,sadness,0.2747
+"The little boy hid under his blankets, trembling in fright as thunder shook the bedroom windows.",fear,sadness,0.274
+"Did you lock the front door, or could the burglar still be inside the house?",fear,anger,0.5106
+She had nowhere to hide and no way to defend herself against the aggressive stray dogs.,fear,anger,0.3908
+"The pilot announced severe engine trouble, causing screams of absolute panic throughout the passenger cabin.",fear,sadness,0.3341
+What if the emergency surgery goes wrong and my father doesn't wake up tomorrow?,fear,anger,0.2506
+He blinked in disbelief when his long-lost twin brother walked through the restaurant entrance.,surprise,sadness,0.2862
+Did they really announce a four-day work week starting next Monday without any warning?,surprise,sadness,0.4831
+We never anticipated that our simple homemade cooking video would reach three million views overnight.,surprise,joy,0.3562
+What an unexpected shock to find out my quiet neighbor was an undercover detective!,surprise,joy,0.6043
+"We thought the flight was canceled, but suddenly the gate opened and boarding began immediately.",surprise,sadness,0.362
+Can you believe that antique vase you bought for ten dollars is actually an authentic Ming relic?,surprise,joy,0.4123
+Her jaw dropped in pure shock as the choir started singing outside her dormitory window.,surprise,joy,0.3114
+I never imagined our tiny neighborhood bakery would be featured on national television this morning.,surprise,joy,0.52

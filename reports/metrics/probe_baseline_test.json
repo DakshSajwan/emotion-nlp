@@ -1,0 +1,20 @@
+{
+  "model_type": "baseline",
+  "split": "test",
+  "emotional_samples": 60,
+  "accuracy": 0.4167,
+  "macro_f1": 0.4259,
+  "weighted_f1": 0.4259,
+  "per_class_f1": {
+    "sadness": 0.1667,
+    "joy": 0.4286,
+    "love": 0.5714,
+    "anger": 0.5,
+    "fear": 0.5556,
+    "surprise": 0.3333
+  },
+  "neutral_samples": 12,
+  "falsely_confident_neutral_count": 0,
+  "falsely_confident_neutral_rate": 0.0,
+  "neutral_mean_confidence": 0.3694
+}

@@ -1,0 +1,145 @@
+text,label_name,split
+"She sat quietly by the window, watching the rain wash away the chalk drawings they made together.",sadness,dev
+Why does grief always hit the hardest when the house finally falls silent at night?,sadness,dev
+"He tried smiling for the cameras, but there was no hiding the heartbreak in his eyes.",sadness,dev
+I lost my grandfather yesterday and the silence in his living room is completely deafening.,sadness,dev
+"Packing up my late mother's vintage dresses was bittersweet, but mostly it just broke my heart.",sadness,dev
+What a cruel ending to five years of relentless dedication and sacrifice!,sadness,dev
+"The dog waited by the front door all evening, not knowing his owner was never coming home.",sadness,dev
+"After receiving the fourth rejection email this week, I buried my face in my pillow and cried.",sadness,dev
+How are we supposed to move forward when everything we built together is gone?,sadness,dev
+I feel so utterly lonely in this crowded lecture hall where nobody even knows my name.,sadness,dev
+Tears welled up in his eyes as he packed his childhood belongings into dusty cardboard boxes.,sadness,test
+Did anyone else notice how sad she looked during the graduation ceremony?,sadness,test
+"No matter how many times they apologized, the irreparable loss left everyone devastated and silent.",sadness,test
+"Visiting our favorite old café alone felt cold, hollow, and painfully heavy today.",sadness,test
+The little girl dropped her favorite ice cream cone on the sidewalk and wept uncontrollably.,sadness,test
+If only we had realized that was the very last conversation we would ever share!,sadness,test
+"The farewell party was polite, but walking out of the building felt deeply depressing.",sadness,test
+His mother’s voice trembled with sorrow as she read the memorial eulogy aloud.,sadness,test
+My heart sank when the veterinarian told us there was nothing more they could do.,sadness,test
+It hurts to realize that some friendships simply fade into quiet oblivion without any explanation.,sadness,test
+We finally won the national championship after three grueling years of practice!,joy,dev
+Isn't it wonderful that Sarah got accepted into her top-choice medical school?,joy,dev
+I wasn't just pleased with my final grades; I was absolutely dancing with joy!,joy,dev
+The children burst through the classroom doors and cheered ecstatically when the bell rang.,joy,dev
+Hearing the doctor say the tumor was completely benign made us shout with relief and happiness!,joy,dev
+"The marathon was brutally exhausting, but crossing that finish line felt like pure heaven.",joy,dev
+Her face lit up with a brilliant smile the second she saw the surprise puppies.,joy,dev
+Today was easily one of the most delightful and uplifting days I have experienced in months.,joy,dev
+Can you believe we were awarded the first-place prize out of fifty competing teams?,joy,dev
+I feel cheerful and full of vibrant energy on this bright sunny morning.,joy,dev
+"What a breathtaking performance, the audience couldn't stop cheering and applauding!",joy,test
+Grandpa chuckled warmly as his grandchildren piled onto his lap with colorful birthday cards.,joy,test
+They had no doubt that their startup's launch was a sensational and triumphant success.,joy,test
+We spent the entire afternoon laughing until our ribs ached at his ridiculous childhood stories.,joy,test
+Could anything possibly top getting engaged on a warm tropical beach at sunset?,joy,test
+Finding out that our community fundraiser reached its goal was an overwhelmingly joyous moment.,joy,test
+The puppy wagged its tail furiously and bounced around the living room with sheer excitement.,joy,test
+"Moving into our first house is overwhelming, but unpacking our kitchen brings us so much delight.",joy,test
+"Hurray, the flight was on time and we made it to the wedding after all!",joy,test
+Everyone in the village gathered in the town square to dance and celebrate the harvest.,joy,test
+He gently wrapped his arms around her and kissed her forehead with tender affection.,love,dev
+"How could anyone not fall completely in love with such a compassionate, caring human being?",love,dev
+There is no one else in this world whose happiness matters more to me than yours.,love,dev
+I adore the way my partner always remembers my favorite songs on long road trips.,love,dev
+"We disagree sometimes, but the deep affection and trust between us will never waver.",love,dev
+You are truly the most precious and irreplaceable person in my entire life!,love,dev
+"The mother gazed lovingly at her sleeping newborn, humming a soft, soothing lullaby.",love,dev
+Spending a quiet evening cuddling on the sofa with you is my definition of perfection.,love,dev
+"Their fifty-year marriage is living proof that devoted, unconditional romance still exists.",love,dev
+I feel deeply connected and romantic toward you whenever we hold hands in the park.,love,dev
+"Did you see the tender, loving note he secretly tucked into her lunchbox this morning?",love,test
+She cherished every handwritten letter her husband sent from overseas during the war.,love,test
+"Without your warmth and gentle guidance, my world would be completely devoid of affection.",love,test
+My heart overflows with immense love every single time my daughter smiles at me.,love,test
+"I love you more than words could ever possibly express, my darling!",love,test
+"Growing older can be frightening, but walking this path beside my beloved partner makes it beautiful.",love,test
+The elderly couple walked along the seashore holding hands just like they did forty years ago.,love,test
+Cooking dinner together while talking about our dreams is when I adore him the most.,love,test
+Isn't it wonderful to have friends who love you exactly as you are?,love,test
+His romantic gesture of planting her favorite roses in the backyard melted her heart instantly.,love,test
+How dare you insult my family after everything we did to help you succeed!,anger,dev
+Why did the manager blatantly lie to our faces about our approved vacation time?,anger,dev
+"I am not tolerating your disrespectful, condescending attitude in my classroom for another second.",anger,dev
+It infuriates me when reckless drivers run red lights and endanger pedestrians on crosswalks.,anger,dev
+"I tried staying calm during the board meeting, but their corrupt decision made me boil inside.",anger,dev
+The furious customer slammed his fist on the counter and demanded an immediate refund.,anger,dev
+I worked seventy hours on this project only to have my boss steal all the credit!,anger,dev
+The tenant was livid after finding out the landlord had entered her apartment without permission.,anger,dev
+Do they really think they can scam honest people out of their savings and get away with it?,anger,dev
+I feel outraged and furious at the blatant unfairness of this biased grading system.,anger,dev
+Stop spreading vicious rumors about me before I take formal legal action against you!,anger,test
+His blood boiled when he discovered that his bicycle had been vandalized overnight.,anger,test
+They showed absolutely no remorse for the severe damage their reckless negligence caused.,anger,test
+Who gave you permission to delete my research files without asking me first?,anger,test
+The airline canceled our flight with zero notice and the staff were incredibly rude and unhelpful.,anger,test
+"I smiled politely, but beneath the surface I was burning with pure indignation and resentment.",anger,test
+The mechanic overcharged her by hundreds of dollars for repairs that were completely unnecessary and fictitious.,anger,test
+That corrupt politician should be behind bars for stealing taxpayer money to fund his luxury mansion!,anger,test
+I am sick and tired of carrying the entire group project while everyone else slacks off!,anger,test
+The angry protesters shouted at the company executives who refused to meet with labor representatives.,anger,test
+What was that terrifying scratching sound coming from inside the dark closet just now?,fear,dev
+My hands were trembling uncontrollably as the tornado siren began wailing across the neighborhood.,fear,dev
+I wasn't brave at all; the venomous snake in our campsite terrified me to my core.,fear,dev
+"The hikers froze in terror when they heard a low, menacing growl in the dense thicket.",fear,dev
+"The turbulence was routine according to the pilot, but my heart was racing with dreadful apprehension.",fear,dev
+"Look out, that speeding truck lost its brakes and is heading straight for the guardrail!",fear,dev
+Waiting in the doctor's office for the biopsy results filled me with paralyzing dread.,fear,dev
+"Shadows danced along the abandoned hallway, sending chills of sheer panic down her spine.",fear,dev
+Is anyone else panicked about the flash flood warning issued for our street tonight?,fear,dev
+I feel petrified of swimming in deep ocean waters where sharks might be lurking underneath.,fear,dev
+"The little boy hid under his blankets, trembling in fright as thunder shook the bedroom windows.",fear,test
+"Did you lock the front door, or could the burglar still be inside the house?",fear,test
+She had nowhere to hide and no way to defend herself against the aggressive stray dogs.,fear,test
+Walking alone through the dark alleyway at midnight made my pulse pound in sudden fright.,fear,test
+The brakes completely failed on the steep icy hill and we thought we were going to crash!,fear,test
+"It was just a movie, but the eerie whispering soundtrack gave me recurring terrifying nightmares.",fear,test
+"The pilot announced severe engine trouble, causing screams of absolute panic throughout the passenger cabin.",fear,test
+A suffocating wave of anxiety gripped my throat when I realized my passport was missing.,fear,test
+"His knuckles turned white as he gripped the ledge, terrified of slipping into the abyss.",fear,test
+What if the emergency surgery goes wrong and my father doesn't wake up tomorrow?,fear,test
+"Wow, I had no clue you were secretly throwing me a birthday party tonight!",surprise,dev
+Did you seriously just win the grand lottery jackpot on your very first ticket?,surprise,dev
+Nobody expected the quiet underdog candidate to win the election by a massive landslide.,surprise,dev
+She opened the jewelry box and gasped in utter astonishment at the sparkling emerald ring.,surprise,dev
+"I assumed the test went poorly, so receiving a perfect score was a shocking, pleasant revelation!",surprise,dev
+Stumbling across my childhood teacher in a café five thousand miles from home was totally unexpected.,surprise,dev
+The magician snapped his fingers and the massive tiger vanished into thin air before our eyes.,surprise,dev
+"Holy cow, look at how fast that meteor streaked across the evening sky!",surprise,dev
+Was anyone prepared for the sudden announcement that the entire school would be closing early?,surprise,dev
+I feel bewildered and surprised by the bizarre plot twist at the end of that film.,surprise,dev
+He blinked in disbelief when his long-lost twin brother walked through the restaurant entrance.,surprise,test
+Did they really announce a four-day work week starting next Monday without any warning?,surprise,test
+We never anticipated that our simple homemade cooking video would reach three million views overnight.,surprise,test
+I was stunned when the university president personally called to congratulate me on the prestigious fellowship.,surprise,test
+What an unexpected shock to find out my quiet neighbor was an undercover detective!,surprise,test
+"We thought the flight was canceled, but suddenly the gate opened and boarding began immediately.",surprise,test
+The audience erupted into stunned murmurs when the famous actor made an unannounced cameo appearance.,surprise,test
+Can you believe that antique vase you bought for ten dollars is actually an authentic Ming relic?,surprise,test
+Her jaw dropped in pure shock as the choir started singing outside her dormitory window.,surprise,test
+I never imagined our tiny neighborhood bakery would be featured on national television this morning.,surprise,test
+The weekly team meeting is scheduled for 5 pm in conference room B.,neutral,dev
+The train departs from platform three at twelve minutes past the hour.,neutral,dev
+Please submit your expense reports by Friday afternoon at the latest.,neutral,dev
+The library has over one hundred thousand books in its digital catalogue.,neutral,dev
+Today's forecast calls for cloudy skies with light rain in the afternoon.,neutral,dev
+The grocery store closes at ten o'clock every night except on Sundays.,neutral,dev
+Water boils at one hundred degrees Celsius under standard atmospheric pressure conditions.,neutral,dev
+He parked his bicycle in the designated rack next to the building entrance.,neutral,dev
+The university campus spans sixty acres of land in the northern district.,neutral,dev
+The package arrived by standard postal delivery around lunchtime yesterday.,neutral,dev
+The document consists of fifteen pages divided into four primary chapters.,neutral,dev
+She purchased two notebooks and three blue pens at the bookstore.,neutral,dev
+The museum is open to visitors from Tuesday through Saturday each week.,neutral,test
+An email confirmation has been sent to the registered address on file.,neutral,test
+The recipe calls for two cups of flour and one teaspoon of salt.,neutral,test
+The flight from Chicago to Boston takes approximately two hours and ten minutes.,neutral,test
+The traffic lights at the corner were repaired earlier this morning by technicians.,neutral,test
+The computer monitor has a resolution of nineteen twenty by ten eighty pixels.,neutral,test
+All visitors must sign in at the front desk before entering the building.,neutral,test
+The seminar will cover introductory data structures and basic sorting algorithms.,neutral,test
+The invoice includes a five percent sales tax and standard shipping fees.,neutral,test
+The apartment building was constructed in nineteen ninety five using reinforced concrete.,neutral,test
+The dictionary defines words using phonetic symbols and short example phrases.,neutral,test
+The lecture begins promptly at nine in the morning on floor two.,neutral,test

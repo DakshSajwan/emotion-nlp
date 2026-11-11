@@ -1,0 +1,21 @@
+text,true,pred,confidence
+"She sat quietly by the window, watching the rain wash away the chalk drawings they made together.",sadness,fear,0.9006
+What a cruel ending to five years of relentless dedication and sacrifice!,sadness,anger,0.9976
+"The dog waited by the front door all evening, not knowing his owner was never coming home.",sadness,fear,0.8313
+There is no one else in this world whose happiness matters more to me than yours.,love,joy,0.995
+I adore the way my partner always remembers my favorite songs on long road trips.,love,joy,0.5019
+You are truly the most precious and irreplaceable person in my entire life!,love,joy,0.9994
+Spending a quiet evening cuddling on the sofa with you is my definition of perfection.,love,joy,0.9943
+Why did the manager blatantly lie to our faces about our approved vacation time?,anger,joy,0.9763
+"The turbulence was routine according to the pilot, but my heart was racing with dreadful apprehension.",fear,sadness,0.7555
+"Look out, that speeding truck lost its brakes and is heading straight for the guardrail!",fear,sadness,0.5122
+"Wow, I had no clue you were secretly throwing me a birthday party tonight!",surprise,anger,0.5224
+Did you seriously just win the grand lottery jackpot on your very first ticket?,surprise,joy,0.7828
+Nobody expected the quiet underdog candidate to win the election by a massive landslide.,surprise,anger,0.6514
+She opened the jewelry box and gasped in utter astonishment at the sparkling emerald ring.,surprise,joy,0.884
+"I assumed the test went poorly, so receiving a perfect score was a shocking, pleasant revelation!",surprise,joy,0.9986
+Stumbling across my childhood teacher in a café five thousand miles from home was totally unexpected.,surprise,fear,0.9826
+The magician snapped his fingers and the massive tiger vanished into thin air before our eyes.,surprise,fear,0.7024
+"Holy cow, look at how fast that meteor streaked across the evening sky!",surprise,anger,0.8349
+Was anyone prepared for the sudden announcement that the entire school would be closing early?,surprise,fear,0.6021
+I feel bewildered and surprised by the bizarre plot twist at the end of that film.,surprise,fear,0.5021

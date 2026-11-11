@@ -1,0 +1,9 @@
+# Auto-detect text files and perform LF normalization
+* text=auto
+
+# Binary assets
+*.joblib binary
+*.png binary
+*.zip binary
+*.safetensors binary
+

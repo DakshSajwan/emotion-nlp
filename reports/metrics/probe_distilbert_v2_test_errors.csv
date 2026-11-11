@@ -1,0 +1,9 @@
+text,true,pred,confidence
+"Visiting our favorite old café alone felt cold, hollow, and painfully heavy today.",sadness,anger,0.9782
+If only we had realized that was the very last conversation we would ever share!,sadness,surprise,0.9925
+"What a breathtaking performance, the audience couldn't stop cheering and applauding!",joy,love,0.9466
+"Without your warmth and gentle guidance, my world would be completely devoid of affection.",love,sadness,0.9585
+The elderly couple walked along the seashore holding hands just like they did forty years ago.,love,surprise,0.7921
+I am sick and tired of carrying the entire group project while everyone else slacks off!,anger,sadness,0.9029
+"Did you lock the front door, or could the burglar still be inside the house?",fear,anger,0.9046
+She had nowhere to hide and no way to defend herself against the aggressive stray dogs.,fear,anger,0.8777

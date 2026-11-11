@@ -1,0 +1,33 @@
+text,true,pred,confidence
+"She sat quietly by the window, watching the rain wash away the chalk drawings they made together.",sadness,joy,0.4876
+Why does grief always hit the hardest when the house finally falls silent at night?,sadness,joy,0.207
+What a cruel ending to five years of relentless dedication and sacrifice!,sadness,joy,0.3773
+"The dog waited by the front door all evening, not knowing his owner was never coming home.",sadness,anger,0.2691
+How are we supposed to move forward when everything we built together is gone?,sadness,joy,0.3239
+"The marathon was brutally exhausting, but crossing that finish line felt like pure heaven.",joy,fear,0.2423
+There is no one else in this world whose happiness matters more to me than yours.,love,joy,0.4703
+I adore the way my partner always remembers my favorite songs on long road trips.,love,joy,0.3307
+"We disagree sometimes, but the deep affection and trust between us will never waver.",love,fear,0.4394
+You are truly the most precious and irreplaceable person in my entire life!,love,joy,0.7054
+"The mother gazed lovingly at her sleeping newborn, humming a soft, soothing lullaby.",love,anger,0.2472
+Spending a quiet evening cuddling on the sofa with you is my definition of perfection.,love,joy,0.5013
+How dare you insult my family after everything we did to help you succeed!,anger,sadness,0.3424
+Why did the manager blatantly lie to our faces about our approved vacation time?,anger,joy,0.381
+"I tried staying calm during the board meeting, but their corrupt decision made me boil inside.",anger,joy,0.452
+I worked seventy hours on this project only to have my boss steal all the credit!,anger,joy,0.3839
+My hands were trembling uncontrollably as the tornado siren began wailing across the neighborhood.,fear,joy,0.3237
+"The hikers froze in terror when they heard a low, menacing growl in the dense thicket.",fear,sadness,0.5426
+"The turbulence was routine according to the pilot, but my heart was racing with dreadful apprehension.",fear,sadness,0.2891
+"Look out, that speeding truck lost its brakes and is heading straight for the guardrail!",fear,sadness,0.6336
+Waiting in the doctor's office for the biopsy results filled me with paralyzing dread.,fear,sadness,0.2731
+"Shadows danced along the abandoned hallway, sending chills of sheer panic down her spine.",fear,joy,0.3444
+Is anyone else panicked about the flash flood warning issued for our street tonight?,fear,joy,0.4371
+"Wow, I had no clue you were secretly throwing me a birthday party tonight!",surprise,joy,0.2911
+Did you seriously just win the grand lottery jackpot on your very first ticket?,surprise,joy,0.4827
+Nobody expected the quiet underdog candidate to win the election by a massive landslide.,surprise,fear,0.2786
+She opened the jewelry box and gasped in utter astonishment at the sparkling emerald ring.,surprise,joy,0.5316
+"I assumed the test went poorly, so receiving a perfect score was a shocking, pleasant revelation!",surprise,joy,0.8616
+Stumbling across my childhood teacher in a café five thousand miles from home was totally unexpected.,surprise,sadness,0.3602
+The magician snapped his fingers and the massive tiger vanished into thin air before our eyes.,surprise,fear,0.3291
+"Holy cow, look at how fast that meteor streaked across the evening sky!",surprise,joy,0.3819
+Was anyone prepared for the sudden announcement that the entire school would be closing early?,surprise,sadness,0.3379

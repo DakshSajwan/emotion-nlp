@@ -1,0 +1,17 @@
+{
+  "accuracy": 0.8825,
+  "macro_f1": 0.8342,
+  "weighted_f1": 0.8848,
+  "training_time_seconds": 0.868,
+  "inference_time_per_1000_samples_ms": 5.093,
+  "inference_time_per_1000_samples_seconds": 0.005093,
+  "total_test_inference_time_seconds": 0.0102,
+  "best_params": {
+    "C": 5.0,
+    "ngram_range": [
+      1,
+      1
+    ]
+  },
+  "best_val_macro_f1": 0.8723
+}

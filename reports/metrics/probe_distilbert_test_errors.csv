@@ -1,0 +1,23 @@
+text,true,pred,confidence
+"Visiting our favorite old café alone felt cold, hollow, and painfully heavy today.",sadness,anger,0.9965
+If only we had realized that was the very last conversation we would ever share!,sadness,anger,0.9195
+"The farewell party was polite, but walking out of the building felt deeply depressing.",sadness,anger,0.8327
+We spent the entire afternoon laughing until our ribs ached at his ridiculous childhood stories.,joy,sadness,0.7227
+The puppy wagged its tail furiously and bounced around the living room with sheer excitement.,joy,fear,0.6433
+Everyone in the village gathered in the town square to dance and celebrate the harvest.,joy,anger,0.5253
+She cherished every handwritten letter her husband sent from overseas during the war.,love,joy,0.7926
+"Without your warmth and gentle guidance, my world would be completely devoid of affection.",love,sadness,0.976
+My heart overflows with immense love every single time my daughter smiles at me.,love,joy,0.9906
+The elderly couple walked along the seashore holding hands just like they did forty years ago.,love,fear,0.7731
+Isn't it wonderful to have friends who love you exactly as you are?,love,joy,0.9982
+She had nowhere to hide and no way to defend herself against the aggressive stray dogs.,fear,anger,0.9628
+A suffocating wave of anxiety gripped my throat when I realized my passport was missing.,fear,sadness,0.6802
+He blinked in disbelief when his long-lost twin brother walked through the restaurant entrance.,surprise,sadness,0.8685
+Did they really announce a four-day work week starting next Monday without any warning?,surprise,anger,0.9489
+We never anticipated that our simple homemade cooking video would reach three million views overnight.,surprise,joy,0.9869
+I was stunned when the university president personally called to congratulate me on the prestigious fellowship.,surprise,joy,0.6109
+What an unexpected shock to find out my quiet neighbor was an undercover detective!,surprise,anger,0.7461
+"We thought the flight was canceled, but suddenly the gate opened and boarding began immediately.",surprise,anger,0.8125
+Can you believe that antique vase you bought for ten dollars is actually an authentic Ming relic?,surprise,joy,0.9986
+Her jaw dropped in pure shock as the choir started singing outside her dormitory window.,surprise,fear,0.9275
+I never imagined our tiny neighborhood bakery would be featured on national television this morning.,surprise,joy,0.9769

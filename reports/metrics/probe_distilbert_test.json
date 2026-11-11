@@ -1,0 +1,20 @@
+{
+  "model_type": "distilbert",
+  "split": "test",
+  "emotional_samples": 60,
+  "accuracy": 0.6333,
+  "macro_f1": 0.5958,
+  "weighted_f1": 0.5958,
+  "per_class_f1": {
+    "sadness": 0.6667,
+    "joy": 0.5833,
+    "love": 0.6667,
+    "anger": 0.7143,
+    "fear": 0.7619,
+    "surprise": 0.1818
+  },
+  "neutral_samples": 12,
+  "falsely_confident_neutral_count": 4,
+  "falsely_confident_neutral_rate": 0.3333,
+  "neutral_mean_confidence": 0.6489
+}

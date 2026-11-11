@@ -1,0 +1,4 @@
+Model,Accuracy,Macro-F1,Weighted-F1,Inference Time (ms / 1k samples),Model Size (MB)
+Baseline (TF-IDF + LR),0.8825,0.8342,0.8848,5.093,1.1
+DistilBERT v1,0.9295,0.8832,0.9284,2725.1521,256.12
+DistilBERT v2 (Improved),0.9295,0.8929,0.9304,2789.8069,256.12

@@ -1,0 +1,17 @@
+# Python 3.11.18
+torch==2.15.0
+transformers==5.22.1
+datasets==5.1.0
+scikit-learn==1.9.1
+numpy==2.4.6
+pandas==3.1.0
+nltk==3.10.4
+lime==0.2.0.1
+streamlit==1.66.1
+accelerate==1.15.0
+joblib==1.6.0
+pytest==9.2.0
+tqdm==4.70.1
+matplotlib==3.11.2
+seaborn==0.13.2
+scipy==1.17.1
