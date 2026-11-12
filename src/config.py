@@ -111,7 +111,7 @@ ACTIVE_DISTILBERT_PREDS: Path = PREDICTIONS_DIR / f"{ACTIVE_DISTILBERT}_test_pre
 # ---------------------------------------------------------------------------
 # Remote Model Distribution & Availability
 # ---------------------------------------------------------------------------
-MODELS_URL: str = "https://github.com/<DakshSajwan>/<emotion-nlp>/releases/download/v1.0/models.zip"
+MODELS_URL = "https://github.com/DakshSajwan/emotion-nlp/releases/download/v1.0/models.zip"
 MODELS_SHA256: str = "f4544265c5016f75f1bd064af492ae6fd5275ef3c31959b8dd0ef4c88cd90dc1"
 
 

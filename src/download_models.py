@@ -33,7 +33,7 @@ MANUAL_ALTERNATIVE_MSG: str = """
 MANUAL INSTALLATION INSTRUCTIONS:
 ================================================================================
 1. Download 'models.zip' directly from the project's GitHub Releases page:
-   https://github.com/<DakshSajwan>/<emotion-nlp>/releases
+   https://github.com/DakshSajwan/emotion-nlp/releases
 
 2. Install the local zip archive using:
    python -m src.download_models --from-file <path_to_models.zip>

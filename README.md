@@ -270,7 +270,7 @@ Model weights are intentionally omitted from git version control due to file siz
 ### macOS & Linux
 ```bash
 # 1. Clone the repository
-git clone https://github.com/username/emotion-nlp.git
+git clone https://github.com/DakshSajwan/emotion-nlp.git
 cd emotion-nlp
 
 # 2. Create and activate virtual environment
@@ -284,7 +284,7 @@ python run_all.py setup
 ### Windows (PowerShell)
 ```powershell
 # 1. Clone repository
-git clone https://github.com/username/emotion-nlp.git
+git clone https://github.com/DakshSajwan/emotion-nlp.git
 cd emotion-nlp
 
 # 2. Create and activate virtual environment
