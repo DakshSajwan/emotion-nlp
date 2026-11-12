@@ -478,11 +478,15 @@ def render_explain_tab(selected_model_type: str) -> None:
 
         with st.spinner("Generating LIME perturbation explanation on CPU..."):
             try:
-                target_model_dir = (
-                    MODEL_DIRS.get(selected_model_type)
-                    if selected_model_type != "baseline"
-                    else ACTIVE_DISTILBERT_DIR
-                )
+                if selected_model_type != "baseline" and selected_model_type in MODEL_DIRS:
+                    target_model_dir = MODEL_DIRS[selected_model_type]
+                elif ACTIVE_DISTILBERT_DIR.exists():
+                    target_model_dir = ACTIVE_DISTILBERT_DIR
+                elif MODEL_DIRS["distilbert"].exists():
+                    target_model_dir = MODEL_DIRS["distilbert"]
+                else:
+                    target_model_dir = ACTIVE_DISTILBERT_DIR
+
                 res = explain_text(
                     text=explain_input,
                     num_samples=num_samples,
@@ -885,9 +889,9 @@ def render_results_tab() -> None:
 
     with c_col2:
         st.markdown("**DistilBERT Confusion Matrix**")
-        dist_conf = FIGURES_DIR / "distilbert_confusion.png"
+        dist_conf = FIGURES_DIR / f"{ACTIVE_DISTILBERT}_confusion.png"
         if not dist_conf.exists():
-            dist_conf = FIGURES_DIR / "distilbert_smoke_confusion.png"
+            dist_conf = FIGURES_DIR / "distilbert_confusion.png"
 
         if dist_conf.exists():
             st.image(str(dist_conf), caption=f"DistilBERT ({dist_conf.stem})", use_container_width=True)
@@ -913,9 +917,9 @@ def render_results_tab() -> None:
 
     with f_col2:
         st.markdown("**DistilBERT Training & Validation Loss Curves**")
-        curves = FIGURES_DIR / "distilbert_training_curves.png"
+        curves = FIGURES_DIR / f"{ACTIVE_DISTILBERT}_training_curves.png"
         if not curves.exists():
-            curves = FIGURES_DIR / "distilbert_smoke_training_curves.png"
+            curves = FIGURES_DIR / "distilbert_training_curves.png"
 
         if curves.exists():
             st.image(str(curves), caption="Loss & Macro-F1 Progression", use_container_width=True)

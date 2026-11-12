@@ -23,6 +23,7 @@ from src.config import (
     LABELS,
     MAX_LENGTH,
     METRICS_DIR,
+    MODEL_DIRS,
     MODELS_DIR,
     SEED,
 )
@@ -39,7 +40,8 @@ def get_model_and_tokenizer(
 ) -> tuple[AutoModelForSequenceClassification, AutoTokenizer]:
     """Load and cache DistilBERT model and tokenizer.
 
-    Checks models/distilbert first, falling back to models/distilbert_smoke if full model is absent.
+    Checks active model directory first (from src.config), falling back gracefully
+    to other installed DistilBERT models if missing.
 
     Args:
         model_dir: Optional custom model directory path.
@@ -51,13 +53,15 @@ def get_model_and_tokenizer(
     if _MODEL is None or _TOKENIZER is None or model_dir is not None:
         target_dir = model_dir
         if target_dir is None:
-            full_dir = ACTIVE_DISTILBERT_DIR
-            smoke_dir = MODELS_DIR / f"{ACTIVE_DISTILBERT}_smoke"
-            target_dir = full_dir if full_dir.exists() else smoke_dir
+            target_dir = ACTIVE_DISTILBERT_DIR
+            if not target_dir.exists():
+                v1_dir = MODEL_DIRS.get("distilbert")
+                if v1_dir and v1_dir.exists():
+                    target_dir = v1_dir
 
         if not target_dir.exists():
             raise FileNotFoundError(
-                f"No trained DistilBERT model found in {full_dir} or {smoke_dir}. "
+                f"No trained DistilBERT model found in {target_dir}. "
                 "Please run `python -m src.download_models` to download models."
             )
 
@@ -313,8 +317,6 @@ def run_explanations_demo() -> list[dict[str, Any]]:
 
     # Select misclassified sample from top errors CSV
     error_csv = METRICS_DIR / f"{ACTIVE_DISTILBERT}_top_errors.csv"
-    if not error_csv.exists():
-        error_csv = METRICS_DIR / f"{ACTIVE_DISTILBERT}_smoke_top_errors.csv"
     if not error_csv.exists():
         error_csv = METRICS_DIR / "distilbert_top_errors.csv"
 

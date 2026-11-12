@@ -126,7 +126,8 @@ FALLBACK_POOLS: dict[str, list[str]] = {
 def build_pools(csv_path: Path | str | None = None) -> dict[str, list[str]]:
     """Build emotion sentence pools from test predictions with fallback safety.
 
-    Reads reports/predictions/distilbert_test_preds.csv (or specified csv_path).
+    Reads predictions from ACTIVE_DISTILBERT_PREDS (or specified csv_path), falling
+    back to distilbert/baseline prediction files or curated fallback pools if missing.
     For each label in config.LABELS:
       - keeps rows where true_label == pred_label
       - confidence >= 0.90
@@ -137,14 +138,20 @@ def build_pools(csv_path: Path | str | None = None) -> dict[str, list[str]]:
     is used to ensure at least 15 valid samples per class.
 
     Args:
-        csv_path: Optional path to prediction CSV. Defaults to
-            PREDICTIONS_DIR / "distilbert_test_preds.csv".
+        csv_path: Optional path to prediction CSV. Defaults to ACTIVE_DISTILBERT_PREDS.
 
     Returns:
         dict mapping label -> list of unique text strings.
     """
     if csv_path is None:
         target_path = ACTIVE_DISTILBERT_PREDS
+        if not target_path.exists():
+            v1_path = PREDICTIONS_DIR / "distilbert_test_preds.csv"
+            base_path = PREDICTIONS_DIR / "baseline_test_preds.csv"
+            if v1_path.exists():
+                target_path = v1_path
+            elif base_path.exists():
+                target_path = base_path
     else:
         target_path = Path(csv_path)
 

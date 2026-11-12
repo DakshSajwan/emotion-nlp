@@ -13,7 +13,13 @@ import numpy as np
 import torch
 from transformers import AutoModelForSequenceClassification, AutoTokenizer
 
-from src.config import LABELS, MAX_LENGTH, MODEL_DIRS, MODELS_DIR
+from src.config import (
+    ACTIVE_DISTILBERT,
+    LABELS,
+    MAX_LENGTH,
+    MODEL_DIRS,
+    available_models,
+)
 from src.preprocess import heavy_clean, minimal_clean
 
 
@@ -77,13 +83,11 @@ class EmotionPredictor:
                 ) from err
 
         elif self.model_type in ("distilbert", "distilbert_v2"):
-            full_dir = MODEL_DIRS[self.model_type]
-            smoke_dir = MODELS_DIR / f"{self.model_type}_smoke"
-            target_dir = full_dir if full_dir.exists() else smoke_dir
+            target_dir = MODEL_DIRS[self.model_type]
 
             if not target_dir.exists():
                 raise FileNotFoundError(
-                    f"{self.model_type} model not found in {full_dir} or {smoke_dir}.\n"
+                    f"{self.model_type} model not found in {target_dir}.\n"
                     "Please download the pre-trained models by running:\n"
                     "    python -m src.download_models\n"
                     "or train from scratch with:\n"
@@ -215,9 +219,9 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--model",
         type=str,
-        default="distilbert",
-        choices=["baseline", "distilbert", "distilbert_v2"],
-        help="Model architecture to use ('baseline', 'distilbert', or 'distilbert_v2').",
+        default=ACTIVE_DISTILBERT,
+        choices=list(MODEL_DIRS.keys()),
+        help=f"Model architecture to use ('baseline', 'distilbert', or 'distilbert_v2'; default: {ACTIVE_DISTILBERT}).",
     )
     return parser.parse_args()
 
@@ -225,14 +229,20 @@ def parse_args() -> argparse.Namespace:
 def main() -> None:
     """CLI execution entrypoint."""
     args = parse_args()
-    predictor = EmotionPredictor(model_type=args.model)
+    model_type = args.model
+    avail = available_models()
+    if model_type == ACTIVE_DISTILBERT and ACTIVE_DISTILBERT not in avail:
+        print(f"Note: Active model '{ACTIVE_DISTILBERT}' is not installed; falling back to 'baseline'.")
+        model_type = "baseline"
+
+    predictor = EmotionPredictor(model_type=model_type)
     result = predictor.predict(args.text)
 
     print("\n" + "=" * 50)
     print("EMOTION DETECTION INFERENCE")
     print("=" * 50)
     print(f"Input:        \"{args.text}\"")
-    print(f"Model:        {args.model}")
+    print(f"Model:        {model_type}")
     print(f"Prediction:   {result['label']} (Confidence: {result['confidence']:.4f})")
     if "is_confident" in result:
         status_text = "CONFIDENT" if result["is_confident"] else "ABSTAIN (Uncertain / Low Confidence)"

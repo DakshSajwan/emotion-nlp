@@ -165,3 +165,12 @@ def test_is_confident_is_bool() -> None:
     res_neutral = predictor.predict("The meeting starts at 3 pm in room 201.")
     assert "is_confident" in res_neutral
     assert isinstance(res_neutral["is_confident"], bool)
+
+
+def test_parse_args_defaults_to_active_distilbert(monkeypatch: pytest.MonkeyPatch) -> None:
+    """Verify parse_args defaults --model to ACTIVE_DISTILBERT from src/config.py."""
+    from src.predict import parse_args
+
+    monkeypatch.setattr("sys.argv", ["predict.py", "Test sentence"])
+    args = parse_args()
+    assert args.model == ACTIVE_DISTILBERT
